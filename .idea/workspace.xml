@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec01 Solutions">
-      <change afterPath="$PROJECT_DIR$/Dec01/src/CalibrationValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec01/src/CalibrationValueLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec01/src/Dec01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec01/src/Digit.java" afterDir="false" />
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec02 Solutions">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec1/Dec1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec1/src/CalibrationValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec1/src/CalibrationValueLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec1/src/Dec01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec1/src/Digit.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701434091537</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Dec02 Solutions">
+      <option name="closed" value="true" />
+      <created>1701524940277</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701524940277</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Further setup" />
     <MESSAGE value="Dec01 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec01 Solutions" />
+    <MESSAGE value="Dec02 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec02 Solutions" />
   </component>
 </project>
