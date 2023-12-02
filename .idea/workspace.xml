@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Further setup">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec01 Solutions">
+      <change afterPath="$PROJECT_DIR$/Dec01/src/CalibrationValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec01/src/CalibrationValueLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec01/src/Dec01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec01/src/Digit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec1/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec1/src/Dec01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec1/Dec1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec1/src/CalibrationValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec1/src/CalibrationValueLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec1/src/Dec01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec1/src/Digit.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,10 +65,10 @@
       <recent name="E:\MainStorage\Documents\GitHub\AdventOfCode2023\Dec1\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Dec02">
     <configuration name="Dec01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec01" />
-      <module name="Dec1" />
+      <module name="Dec01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,12 +76,20 @@
     <configuration name="Dec01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec01" />
       <module name="Dec1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dec02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec02" />
+      <module name="Dec02" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec02" />
         <item itemvalue="Application.Dec01" />
         <item itemvalue="Application.Dec01" />
       </list>
@@ -95,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701121485498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dec01 Solutions">
+      <option name="closed" value="true" />
+      <created>1701434091537</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701434091537</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +142,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Further setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Further setup" />
+    <MESSAGE value="Dec01 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec01 Solutions" />
   </component>
 </project>
