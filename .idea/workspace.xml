@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec02 Solutions">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Prep for Dec03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec03/src/Dec03.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec03/src/Dec03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec03/src/InputLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec03/src/LineLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="E:\MainStorage\Documents\GitHub\AdventOfCode2023\Dec1\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec02">
+  <component name="RunManager" selected="Application.Dec03">
     <configuration name="Dec01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec01" />
       <module name="Dec01" />
@@ -78,8 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec03" />
+      <module name="Dec03" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec03" />
         <item itemvalue="Application.Dec02" />
         <item itemvalue="Application.Dec01" />
         <item itemvalue="Application.Dec01" />
@@ -119,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701524940277</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Prep for Dec03">
+      <option name="closed" value="true" />
+      <created>1701525116417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701525116417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +160,31 @@
     <MESSAGE value="Further setup" />
     <MESSAGE value="Dec01 Solutions" />
     <MESSAGE value="Dec02 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec02 Solutions" />
+    <MESSAGE value="Prep for Dec03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prep for Dec03" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec03/src/Line.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec03/src/Gear.java</url>
+          <line>20</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec03/src/Line.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

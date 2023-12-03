@@ -3,9 +3,9 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class InputLoader {
+public class LineLoader {
 
-    public static List<Object> loadInput() {
+    public static List<Line> loadInput() {
         List<String> allLines = null;
         try {
             allLines = Files.readAllLines(Paths.get("resources/input.txt"));
@@ -13,6 +13,6 @@ public class InputLoader {
             e.printStackTrace();
         }
 
-        return new ArrayList<>(); //TODO: REMOVE
+        return allLines.stream().map(Line::new).toList();
     }
 }
