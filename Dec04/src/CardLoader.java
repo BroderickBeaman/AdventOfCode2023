@@ -34,6 +34,6 @@ public class CardLoader {
                     .collect(Collectors.toSet());
 
             return new Card(cardNumber, winningNumbers, cardNumbers);
-        }).toList();
+        }).collect(Collectors.toList());
     }
 }
