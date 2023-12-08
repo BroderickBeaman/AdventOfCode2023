@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec06 Solutions">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec07 Solutions">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec04/src/CardLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec04/src/CardLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +28,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2YmAJY9Xqq0PtalhrHpr9gKpoVm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,14 +60,7 @@
       <recent name="E:\MainStorage\Documents\GitHub\AdventOfCode2023\Dec1\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec07">
-    <configuration name="Dec03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dec03" />
-      <module name="Dec03" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Dec08">
     <configuration name="Dec04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec04" />
       <module name="Dec04" />
@@ -95,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec08" />
+      <module name="Dec08" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec08" />
         <item itemvalue="Application.Dec07" />
         <item itemvalue="Application.Dec06" />
         <item itemvalue="Application.Dec05" />
         <item itemvalue="Application.Dec04" />
-        <item itemvalue="Application.Dec03" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701863108119</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dec07 Solutions">
+      <option name="closed" value="true" />
+      <created>1701952317110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701952317110</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +216,8 @@
     <MESSAGE value="Dec04 Solutions" />
     <MESSAGE value="Dec05 Solutions" />
     <MESSAGE value="Dec06 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec06 Solutions" />
+    <MESSAGE value="Dec07 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec07 Solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,11 +254,6 @@
           <url>file://$PROJECT_DIR$/Dec05/src/InputLoaders.java</url>
           <line>21</line>
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Dec07/src/Hand.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
