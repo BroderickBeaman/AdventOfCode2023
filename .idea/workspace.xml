@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec07 Solutions">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec08 Solutions">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -60,14 +60,7 @@
       <recent name="E:\MainStorage\Documents\GitHub\AdventOfCode2023\Dec1\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec08">
-    <configuration name="Dec04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dec04" />
-      <module name="Dec04" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Dec09">
     <configuration name="Dec05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec05" />
       <module name="Dec05" />
@@ -96,13 +89,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec09" />
+      <module name="Dec09" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec09" />
         <item itemvalue="Application.Dec08" />
         <item itemvalue="Application.Dec07" />
         <item itemvalue="Application.Dec06" />
         <item itemvalue="Application.Dec05" />
-        <item itemvalue="Application.Dec04" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701952317110</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dec08 Solutions">
+      <option name="closed" value="true" />
+      <created>1702039749181</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702039749181</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +225,8 @@
     <MESSAGE value="Dec05 Solutions" />
     <MESSAGE value="Dec06 Solutions" />
     <MESSAGE value="Dec07 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec07 Solutions" />
+    <MESSAGE value="Dec08 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec08 Solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
