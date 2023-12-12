@@ -39,12 +39,14 @@ public class Line {
         // If broken or unknown, assume it's broken.
         if (springs.get(0).equals(Spring.BROKEN) || springs.get(0).equals(Spring.UNKNOWN)) {
             Integer groupSize = groups.get(0);
-            boolean enoughSprings = groupSize <= springs.size();
-            boolean allCouldBeBroken = !springs.subList(0, groupSize).contains(Spring.WORKING);
-            boolean nextSpringWorking = groupSize == springs.size() || !springs.get(groupSize).equals(Spring.BROKEN);
+//            boolean enoughSprings = groupSize <= springs.size();
+//            boolean allCouldBeBroken = !springs.subList(0, groupSize).contains(Spring.WORKING);
+//            boolean nextSpringWorking = groupSize == springs.size() || !springs.get(groupSize).equals(Spring.BROKEN);
 
-            if (enoughSprings && allCouldBeBroken && nextSpringWorking) {
-                numPossibilities += countPossibilities(springs.subList(groupSize + 1, springs.size()), groups.subList(1, groups.size()));
+            if (groupSize <= springs.size()
+                    && !springs.subList(0, groupSize).contains(Spring.WORKING)
+                    && (groupSize == springs.size() || !springs.get(groupSize).equals(Spring.BROKEN))) {
+                numPossibilities += countPossibilities(springs.subList(Math.min(groupSize + 1, springs.size()), springs.size()), groups.subList(1, groups.size()));
             }
         }
 
