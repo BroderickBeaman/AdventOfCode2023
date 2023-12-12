@@ -5,7 +5,7 @@ public class Dec12 {
     public static void main(String[] args) {
         List<Line> inputList = InputLoader.loadInput();
 
-        int sum = inputList.stream().mapToInt(Line::countPossibilities).sum();
+        long sum = inputList.stream().mapToLong(Line::countPossibilities).sum();
         System.out.println("Number of possibilities: " + sum);
     }
 }

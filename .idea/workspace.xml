@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec11 Solutions">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec12 Part 1 Solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec12/src/Dec12.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec12/src/Dec12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec12/src/InputLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec12/src/InputLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec12/src/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec12/src/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec12/src/Spring.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec12/src/Spring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702297376364</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Dec12 WIP">
+      <option name="closed" value="true" />
+      <created>1702385177132</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702385177132</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Dec12 Part 1 Solution">
+      <option name="closed" value="true" />
+      <created>1702385378890</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702385378890</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,7 +284,9 @@
     <MESSAGE value="Dec09 Solutions" />
     <MESSAGE value="Dec10 Solutions" />
     <MESSAGE value="Dec11 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec11 Solutions" />
+    <MESSAGE value="Dec12 WIP" />
+    <MESSAGE value="Dec12 Part 1 Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec12 Part 1 Solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

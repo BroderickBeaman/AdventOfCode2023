@@ -14,17 +14,22 @@ public class InputLoader {
             e.printStackTrace();
         }
 
+        assert allLines != null;
         return allLines.stream().map(lineString -> {
             String springsString = lineString.split(" ")[0];
             String groupString = lineString.split(" ")[1];
 
+            String expandedSpringString = String.join("?", List.of(springsString,springsString,springsString,springsString,springsString));
+            String expandedGroupString = String.join(",", List.of(groupString,groupString,groupString,groupString,groupString));
+
+
             List<Spring> springs = new ArrayList<>();
 
-            for (Character character : springsString.toCharArray()) {
+            for (Character character : expandedSpringString.toCharArray()) {
                 springs.add(Spring.fromChar(character));
             }
 
-            List<Integer> groups = Arrays.stream(groupString.split(",")).map(Integer::parseInt).toList();
+            List<Integer> groups = Arrays.stream(expandedGroupString.split(",")).map(Integer::parseInt).toList();
 
             return new Line(springs, groups);
         }).toList();
