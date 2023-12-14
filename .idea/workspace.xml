@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec12 Solutions">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec14 Part 1 Solution. Part 2 WIP">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -41,6 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;20&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/MainStorage/Documents/GitHub/AdventOfCode2023/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
@@ -63,14 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec13">
-    <configuration name="Dec09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dec09" />
-      <module name="Dec09" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Dec14">
     <configuration name="Dec10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec10" />
       <module name="Dec10" />
@@ -99,13 +93,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec14" />
+      <module name="Dec14" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec14" />
         <item itemvalue="Application.Dec13" />
         <item itemvalue="Application.Dec12" />
         <item itemvalue="Application.Dec11" />
         <item itemvalue="Application.Dec10" />
-        <item itemvalue="Application.Dec09" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702419922141</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Dec13 Solutions">
+      <option name="closed" value="true" />
+      <created>1702471007048</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702471007048</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -292,7 +301,8 @@
     <MESSAGE value="Dec12 WIP" />
     <MESSAGE value="Dec12 Part 1 Solution" />
     <MESSAGE value="Dec12 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec12 Solutions" />
+    <MESSAGE value="Dec13 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec13 Solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,6 +359,11 @@
           <url>file://$PROJECT_DIR$/Dec13/src/InputLoader.java</url>
           <line>48</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec14/src/Dec14.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
