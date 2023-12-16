@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec15 Part 2 Solution">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec16 Solutions">
+      <change afterPath="$PROJECT_DIR$/Dec16/src/Dec16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec16/src/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec16/src/InputLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dec16/src/Space.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -288,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702643058407</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Dec16 Solutions">
+      <option name="closed" value="true" />
+      <created>1702742058179</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702742058179</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +342,8 @@
     <MESSAGE value="Dec14 Part 2 Solution" />
     <MESSAGE value="Dec15 Part 1 Solution" />
     <MESSAGE value="Dec15 Part 2 Solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec15 Part 2 Solution" />
+    <MESSAGE value="Dec16 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec16 Solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

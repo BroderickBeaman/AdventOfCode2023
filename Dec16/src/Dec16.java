@@ -17,53 +17,42 @@ public class Dec16 {
 
         //try from top
         for (int i = 0; i < width; i++) {
-            visitedSpaces = new List[height][width];
-            for (int y = 0; y < height; y++) {
-                for (int x = 0; x < width; x++) {
-                    visitedSpaces[y][x] = new ArrayList<>();
-                }
-            }
+            reInitVisitedSpaces();
             traversePuzzle(i, 0, Direction.DOWN);
             bestConfiguration = Math.max(numSpacesVisited(), bestConfiguration);
         }
 
         //try from bottom
         for (int i = 0; i < width; i++) {
-            visitedSpaces = new List[height][width];
-            for (int y = 0; y < height; y++) {
-                for (int x = 0; x < width; x++) {
-                    visitedSpaces[y][x] = new ArrayList<>();
-                }
-            }
+            reInitVisitedSpaces();
             traversePuzzle(i, height - 1, Direction.UP);
             bestConfiguration = Math.max(numSpacesVisited(), bestConfiguration);
         }
 
         //try from left
         for (int i = 0; i < width; i++) {
-            visitedSpaces = new List[height][width];
-            for (int y = 0; y < height; y++) {
-                for (int x = 0; x < width; x++) {
-                    visitedSpaces[y][x] = new ArrayList<>();
-                }
-            }
+            reInitVisitedSpaces();
             traversePuzzle(0, i, Direction.RIGHT);
             bestConfiguration = Math.max(numSpacesVisited(), bestConfiguration);
         }
 
         //try from right
         for (int i = 0; i < width; i++) {
-            visitedSpaces = new List[height][width];
-            for (int y = 0; y < height; y++) {
-                for (int x = 0; x < width; x++) {
-                    visitedSpaces[y][x] = new ArrayList<>();
-                }
-            }
+            reInitVisitedSpaces();
             traversePuzzle(width - 1, i, Direction.LEFT);
             bestConfiguration = Math.max(numSpacesVisited(), bestConfiguration);
         }
 
         System.out.println("Number of spaces energized: " + bestConfiguration);
+    }
+
+    private static void reInitVisitedSpaces() {
+        visitedSpaces = new List[height][width];
+        for (int y = 0; y < height; y++) {
+            for (int x = 0; x < width; x++) {
+                visitedSpaces[y][x] = new ArrayList<>();
+            }
+        }
     }
 
     private static void traversePuzzle(int x, int y, Direction currentDirection) {
