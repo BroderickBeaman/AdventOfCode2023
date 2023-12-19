@@ -52,8 +52,4 @@ public record Rule(Character operand, Comparison comparison, Long compareTo, Str
         }
         return null;
     }
-
-    public String processXRule(Part part) {
-
-    }
 }
