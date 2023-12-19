@@ -14,4 +14,15 @@ public class InputLoaderParent {
 
         return allLines;
     }
+
+    public static List<String> loadLines(String fileName) {
+        List<String> allLines = null;
+        try {
+            allLines = Files.readAllLines(Paths.get("resources/" + fileName));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return allLines;
+    }
 }
