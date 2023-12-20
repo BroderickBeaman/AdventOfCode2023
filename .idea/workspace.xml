@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec19 Part 1 Solutions">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec19 Part 2 Solutions">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec19/src/Dec19.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec19/src/Dec19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dec19/src/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec19/src/Rule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
+        <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,14 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec19">
-    <configuration name="Dec15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dec15" />
-      <module name="Dec15" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Dec20">
     <configuration name="Dec16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec16" />
       <module name="Dec16" />
@@ -103,13 +96,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec20" />
+      <module name="Dec20" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec20" />
         <item itemvalue="Application.Dec19" />
         <item itemvalue="Application.Dec18" />
         <item itemvalue="Application.Dec17" />
         <item itemvalue="Application.Dec16" />
-        <item itemvalue="Application.Dec15" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702989210939</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Dec19 Part 2 Solutions">
+      <option name="closed" value="true" />
+      <created>1703031367250</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703031367250</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +367,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Further setup" />
     <MESSAGE value="Dec01 Solutions" />
     <MESSAGE value="Dec02 Solutions" />
     <MESSAGE value="Prep for Dec03" />
@@ -384,7 +391,8 @@
     <MESSAGE value="Dec17 Solutions" />
     <MESSAGE value="Dec18 Solutions" />
     <MESSAGE value="Dec19 Part 1 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec19 Part 1 Solutions" />
+    <MESSAGE value="Dec19 Part 2 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec19 Part 2 Solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -451,6 +459,11 @@
           <url>file://$PROJECT_DIR$/Dec16/src/Dec16.java</url>
           <line>59</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec20/src/Dec20.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
