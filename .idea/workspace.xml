@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec19 Part 1 Solutions">
-      <change afterPath="$PROJECT_DIR$/Dec19/src/Comparison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec19/src/Dec19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec19/src/InputLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec19/src/Part.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec19/src/Rule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dec19/src/Workflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/src/InputLoaderParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/src/InputLoaderParent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec19/src/Dec19.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec19/src/Dec19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec19/src/Rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec19/src/Rule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Record" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -336,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702989199169</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Dec19 Part 1 Solutions">
+      <option name="closed" value="true" />
+      <created>1702989210939</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702989210939</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
