@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec21 Solutions">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec22 Solutions">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -17,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Record" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -67,14 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec22">
-    <configuration name="Dec18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dec18" />
-      <module name="Dec18" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Dec23">
     <configuration name="Dec19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec19" />
       <module name="Dec19" />
@@ -103,13 +96,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec23" />
+      <module name="Dec23" />
+      <option name="VM_PARAMETERS" value="-Xss4m" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Dec19" />
+      <item itemvalue="Application.Dec20" />
+      <item itemvalue="Application.Dec21" />
+      <item itemvalue="Application.Dec22" />
+      <item itemvalue="Application.Dec23" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec23" />
         <item itemvalue="Application.Dec22" />
         <item itemvalue="Application.Dec21" />
         <item itemvalue="Application.Dec20" />
         <item itemvalue="Application.Dec19" />
-        <item itemvalue="Application.Dec18" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703175560711</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Dec22 Solutions">
+      <option name="closed" value="true" />
+      <created>1703260523158</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1703260523158</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prep for Dec03" />
     <MESSAGE value="Dec03 Solutions" />
     <MESSAGE value="Dec04 Solutions" />
     <MESSAGE value="Dec05 Solutions" />
@@ -408,7 +423,8 @@
     <MESSAGE value="Dec19 Part 2 Solutions" />
     <MESSAGE value="Dec20 Solutions" />
     <MESSAGE value="Dec21 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec21 Solutions" />
+    <MESSAGE value="Dec22 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec22 Solutions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
