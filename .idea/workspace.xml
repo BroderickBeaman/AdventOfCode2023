@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec22 Solutions">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec23 Brute force Solutions. I'm not proud of this">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec23/src/Dec23.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec23/src/Dec23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dec23/src/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dec23/src/Direction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +18,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Record" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -378,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703260523158</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Dec23 Brute force Solutions. I'm not proud of this">
+      <option name="closed" value="true" />
+      <created>1703343559221</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703343559221</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -399,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec03 Solutions" />
     <MESSAGE value="Dec04 Solutions" />
     <MESSAGE value="Dec05 Solutions" />
     <MESSAGE value="Dec06 Solutions" />
@@ -424,7 +432,8 @@
     <MESSAGE value="Dec20 Solutions" />
     <MESSAGE value="Dec21 Solutions" />
     <MESSAGE value="Dec22 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec22 Solutions" />
+    <MESSAGE value="Dec23 Brute force Solutions. I'm not proud of this" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec23 Brute force Solutions. I'm not proud of this" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
