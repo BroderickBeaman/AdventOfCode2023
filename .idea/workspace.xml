@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec23 optimized solution">
+    <list default="true" id="e1ee7231-576f-4f06-a97e-974fffa70856" name="Changes" comment="Dec24 solution">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -18,8 +18,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +48,8 @@
     &quot;last_opened_file_path&quot;: &quot;E:/MainStorage/Documents/GitHub/AdventOfCode2023/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -67,14 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dec24">
-    <configuration name="Dec20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dec20" />
-      <module name="Dec20" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Dec25">
     <configuration name="Dec21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dec21" />
       <module name="Dec21" />
@@ -104,20 +98,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dec25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dec25" />
+      <module name="Dec25" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Dec25" />
       <item itemvalue="Application.Dec24" />
-      <item itemvalue="Application.Dec20" />
       <item itemvalue="Application.Dec21" />
       <item itemvalue="Application.Dec22" />
       <item itemvalue="Application.Dec23" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec25" />
         <item itemvalue="Application.Dec24" />
         <item itemvalue="Application.Dec23" />
         <item itemvalue="Application.Dec22" />
         <item itemvalue="Application.Dec21" />
-        <item itemvalue="Application.Dec20" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703347089941</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Dec24 solution">
+      <option name="closed" value="true" />
+      <created>1703444571766</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703444571766</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dec05 Solutions" />
     <MESSAGE value="Dec06 Solutions" />
     <MESSAGE value="Dec07 Solutions" />
     <MESSAGE value="Dec08 Solutions" />
@@ -440,7 +448,8 @@
     <MESSAGE value="Dec22 Solutions" />
     <MESSAGE value="Dec23 Brute force Solutions. I'm not proud of this" />
     <MESSAGE value="Dec23 optimized solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dec23 optimized solution" />
+    <MESSAGE value="Dec24 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dec24 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -520,8 +529,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Dec24/src/Dec24.java</url>
-          <line>151</line>
+          <line>153</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec25/src/Dec25.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Dec25/src/Dec25.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
